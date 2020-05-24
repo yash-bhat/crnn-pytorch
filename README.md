@@ -70,7 +70,7 @@ Train on custom dataset
 
 2. Train simple OCR using custom dataset.
 ```
-python train.pt --test-init True --test-epoch 10 --output-dir <path_to_folder_with_snapshots> --data-path <path_to_custom_dataset>
+python train.py --test-init True --test-epoch 10 --output-dir <path_to_folder_with_snapshots> --data-path <path_to_custom_dataset>
 ```
 
 3. Run test for trained model with visualization mode.
